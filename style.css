@@ -1,0 +1,99 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+main {
+  background-color: black;
+  width: auto;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  main h1 {
+    color: rgba(255, 255, 255, 0.877);
+    font-size: 5vw;
+    text-shadow: 5px 5px 10px gray; }
+  main section {
+    color: gray;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    main section .hr, main section .min, main section .sec, main section .count {
+      font-size: 15vw; }
+    main section .name {
+      font-size: 4vw;
+      position: relative;
+      top: 3.8vw; }
+    main section .btnn {
+      width: 35vw;
+      position: absolute;
+      top: 17.5vw;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      main section .btnn .bt {
+        width: 10vw;
+        height: 2.5vw;
+        font-size: 1.4vw;
+        text-align: center;
+        cursor: pointer; }
+      main section .btnn #start {
+        outline: none;
+        border: none;
+        background-color: green;
+        color: white;
+        -webkit-transition: 0.2s ease-in-out;
+        transition: 0.2s ease-in-out; }
+      main section .btnn #start:hover {
+        -webkit-box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.226);
+                box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.226);
+        -webkit-transform: translateY(0.2vw);
+                transform: translateY(0.2vw); }
+      main section .btnn #stop {
+        outline: none;
+        border: none;
+        background-color: red;
+        color: white;
+        -webkit-transition: 0.2s ease-in-out;
+        transition: 0.2s ease-in-out; }
+      main section .btnn #stop:hover {
+        -webkit-box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.226);
+                box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.226);
+        -webkit-transform: translateY(0.2vw);
+                transform: translateY(0.2vw); }
+      main section .btnn #reset {
+        outline: none;
+        border: none;
+        background-color: blue;
+        color: white;
+        -webkit-transition: 0.2s ease-in-out;
+        transition: 0.2s ease-in-out; }
+      main section .btnn #reset:hover {
+        -webkit-box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.226);
+                box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.226);
+        -webkit-transform: translateY(0.2vw);
+                transform: translateY(0.2vw); }
+
+/*# sourceMappingURL=style.css.map */

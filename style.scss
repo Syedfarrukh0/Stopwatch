@@ -1,0 +1,97 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+main{
+    // border: 2px solid red;
+    background-color: black;
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h1{
+        color: rgba(255, 255, 255, 0.877);
+        font-size: 5vw;
+        text-shadow: 5px 5px 10px gray;
+    }
+
+    section{
+        // border: 2px solid green;
+        color: gray;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .hr, .min, .sec, .count{
+            font-size: 15vw;
+        }
+
+        .name{
+            font-size: 4vw;
+            position: relative;
+            top: 3.8vw;
+        }
+
+        .btnn{
+            // border: 2px solid white;
+            width: 35vw;
+            position: absolute;
+            top: 17.5vw;
+            display: flex;
+            justify-content: space-between;
+
+            .bt{
+                width: 10vw;
+                height: 2.5vw;
+                font-size: 1.4vw;
+                text-align: center;
+                cursor: pointer;
+            }
+
+            #start{
+                outline: none;
+                border: none;
+                background-color: green;
+                color: white;
+                transition: 0.2s ease-in-out;
+            }
+
+            #start:hover{
+                box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.226);
+                transform: translateY(0.2vw);
+            }
+
+            #stop{
+                outline: none;
+                border: none;
+                background-color: red;
+                color: white;
+                transition: 0.2s ease-in-out;
+            }
+
+            #stop:hover{
+                box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.226);
+                transform: translateY(0.2vw);
+            }
+
+            #reset{
+                outline: none;
+                border: none;
+                background-color: blue;
+                color: white;
+                transition: 0.2s ease-in-out;
+            }
+
+            #reset:hover{
+                box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.226);
+                transform: translateY(0.2vw);
+            }
+        }
+    }
+}
